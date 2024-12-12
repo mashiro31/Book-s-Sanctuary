@@ -25,12 +25,12 @@ header {
     padding: 20px 10%;
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 999; /* Ensure the header is above other content */
+    z-index: 999;
 }
 
 header .logo-image {
     width: 80px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
 } 
 
 header nav {
@@ -295,4 +295,74 @@ header nav a:hover {
 .column {
     flex: 1;
     padding: 10px;
+}
+
+/* LIBRARY */
+
+.lib h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.lib span {
+    color: #6C63FF;
+}
+
+.library {
+    margin-top: 70px;
+    text-align: center;
+    padding: 100px 10%;
+    background: #ebeaea;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+.book {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+.book h2, .book p {
+    white-space: normal;
+    word-wrap: break-word;
+}
+  
+.book img {
+    max-width: 200px;
+  }
+  
+.read-button {
+    background: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+
+.read-button:hover {
+    background: #5849c9;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+a {
+    text-decoration: none;
 }

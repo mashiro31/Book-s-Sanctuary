@@ -9,27 +9,29 @@
 <body>
     <header>
         <div>
-            <a href="index.html"><img src="logo1.png" alt="Logo" class="logo-image"></a>
+            <a href="index.html"><img src="logo.png" alt="Logo" class="logo-image"></a>
         </div>
         <nav>
             <a href="#">Home</a>
+            <a href="library.html" id="library-link" style="display: none;">Library</a>
             <a href="about.html">About</a>
             <a href="services.html">Services</a>
             <a href="team.html">Team</a>
             <a href="contact.html">Contact</a>
         </nav>
-        <a href="login.html" class="cta-button">Login</a>
+        <a href="login.html" id="auth-link" class="cta-button">Login</a>
     </header>
 
     <section class="hero">
         <h1>WELCOME TO <span>BOOK'S SANCTUARY</span>: THE WONDERFUL WORLD OF READING.</h1>
         <p style="font-weight: normal;">"Nothing is pleasanter than exploring a library."</p><br>
         <div class="buttons">
-            <a href="login.html" class="login">Login</a>
-            <a href="signup.html" class="signup">Sign Up</a>
-        </div>
+            <a href="login.html" id="log-1" class="login" >Login</a>
+            <a href="signup.html" id="log-2" class="signup" style="display: block;">Sign Up</a>
+        </div><br>
+        <p style="font-weight: normal;">Credits to the <a href="https://www.gutenberg.org/">Project Gutenberg</a> for providing us a free and working ebooks</p>
     </section>
 
-    <script src="script.js"></script>
+    <script src="auth.js" defer></script>
 </body>
 </html>
