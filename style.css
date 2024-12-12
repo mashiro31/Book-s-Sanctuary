@@ -1,0 +1,298 @@
+/* HOME/INDEX */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Ensure the header is above other content */
+}
+
+header .logo-image {
+    width: 80px;
+    height: auto; /* Maintain aspect ratio */
+} 
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #6C63FF;
+}
+
+.cta-button {
+    background: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #5849c9;
+}
+
+.hero {
+    margin-top: 70px;
+    text-align: center;
+    padding: 100px 10%;
+    background: #ebeaea;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero span {
+    color: #6C63FF;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero .buttons a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .buttons .login {
+    background: #6C63FF;
+    color: white;
+}
+
+.hero .buttons .login:hover {
+    background: #5849c9;
+}
+
+.hero .buttons .signup {
+    background: white;
+    color: #333;
+    border: 2px solid #6C63FF;
+}
+
+.hero .buttons .signup:hover {
+    background: #6C63FF;
+    color: white;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 10px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #5849c9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f9f9f9;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #6C63FF;
+}
+
+.cta-button {
+    background: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #5849c9;
+}
+
+.hero .buttons .login {
+    background: #6C63FF;
+    color: white;
+}
+
+.hero .buttons .login:hover {
+    background: #5849c9;
+}
+
+.hero .buttons .signup {
+    background: white;
+    color: #333;
+    border: 2px solid #6C63FF;
+}
+
+.hero .buttons .signup:hover {
+    background: #6C63FF;
+    color: white;
+}
+
+/* LOGIN AND SIGNUP */
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #5849c9;
+}
+
+/* ABOUT */
+.two-columns {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns h1 {
+    font-size: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* CONTACT */
+
+.socmed {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socmed h1 {
+    font-size: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
