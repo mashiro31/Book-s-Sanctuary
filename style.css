@@ -401,3 +401,20 @@ a {
     border-color: #6C63FF;
 
 }
+
+/* ADD BOOK */
+
+.image-preview-wrapper {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    align-items: center;
+}
+
+#imagePreview {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+}

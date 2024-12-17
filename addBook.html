@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK'S SANCTUARY</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="logo.png" alt="Logo" class="logo-image"></a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="library.html" id="library-link" style="display: none;">Library</a>
+            <a href="#" id="addBook-link" style="display: none;">Add Books</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="#">Team</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="login.html" id="auth-link" class="cta-button">Login</a>
+        
+    </header>
+
+    <section class="team-hero">
+        <section class="lib">
+            <h1>ADD <span>BOOK</span></h1><br><br><hr>
+        </section>
+        <div class="form-container">
+            <h2>You can find Virtual Books here at the <a href="https://www.gutenberg.org/" target="_blank">Project Gutenberg</a></h2>
+            <input type="text" id="bookTitle" placeholder="Book Title">
+            <input type="text" id="bookAuthor" placeholder="Author Name">
+            <input type="url" id="bookLink" placeholder="Virtual Book Link (www.example.com)">
+            <label for="bookCover">Upload Book Cover:</label>
+            <input type="file" id="bookCover" accept="image/*" onchange="previewImage(event)">
+            <div class="image-preview-wrapper">
+                <img id="imagePreview" src="#" alt="Preview Image" style="display: none;">
+            </div>
+            <button onclick="addBook()">Add Book</button>
+        </div>
+        <a href="library.html">View Library</a>
+    </section>
+
+    <script src="auth.js"></script>
+</body>
+</html>

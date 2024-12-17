@@ -13,7 +13,8 @@
         </div>
         <nav>
             <a href="index.html">Home</a>
-            <a href="library.html" id="library-link" style="display: block;">Library</a>
+            <a href="#" id="library-link" style="display: block;">Library</a>
+            <a href="addBook.html" id="addBook-link" style="display: none;">Add Books</a>
             <a href="about.html">About</a>
             <a href="services.html">Services</a>
             <a href="team.html">Team</a>
@@ -27,7 +28,8 @@
             <section class="lib">
                 <h1>THE <span>LIBRARY</span></h1><br><br><hr>
             </section>
-            <div class="book-list">
+            <div class="book-list" id="bookListContainer">
+                <!-- Hardcoded Books -->
                 <div class="book">
                     <img src="https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg" alt="Book 2">
                     <h2>Pride and Prejudice</h2>
@@ -82,6 +84,7 @@
                 <p>Author: Omar Khayyam</p>
                 <a href="https://www.gutenberg.org/cache/epub/246/pg246-images.html" class="read-online-link">Read Online</a>
               </div>
+              <!-- Dynamically Loaded Books -->
               </div>
           </main>
     </section>
