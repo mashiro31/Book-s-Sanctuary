@@ -366,3 +366,38 @@ header nav a:hover {
 a {
     text-decoration: none;
 }
+
+/* TEAM */
+
+.team-hero {
+    margin-top: 70px;
+    text-align: center;
+    padding: 100px 10%;
+    background: #ebeaea;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.team-hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.team-hero span {
+    color: #6C63FF;
+}
+
+.team-hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.img-icon {
+    height: 150px;
+    max-width: 150px;
+    border-radius: 5rem;
+    border-color: #6C63FF;
+
+}
